@@ -1,3 +1,8 @@
-.hi{
-    color: aqua;
+
+#logo{
+    height: 50px;
+}
+
+.button{
+    border: 3px solid black;
 }

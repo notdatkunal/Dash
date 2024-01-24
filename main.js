@@ -1,7 +1,23 @@
+let nav = document.getElementById("navigationBar");
+let hero = document.getElementById("heroButton");
 
-let shop = document.getElementById("shopButton");
+function shop(){
 
-shop.addEventListener("click",function (e){
+    console.log("hi");
+    popup.showModal();
+};
 
-    window.alert("hi");
-});
+
+function search(){
+
+    nav.style.display = 'none';
+}
+
+
+
+hero.addEventListener("click",
+function (e){
+
+    nav.style.display = 'block';
+}
+);

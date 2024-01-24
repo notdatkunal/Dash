@@ -28,13 +28,19 @@
                     <span>🙍</span>
                     Register</button>
                 </div>
-                <button class="btn btn-primary" id="shopButton">
+                <button class="btn btn-primary" id="shopButton" onclick="shop()">
                   <i class="material-icons">🛒</i>
                   <span>Shopping Cart</span>
                 </button>
         </div>
           </header>
-          <nav  class="navbar navbar-expand-sm bg-body-tertiary" >
+
+          <dialog id="popup">
+            <button class="btn btn-primary"  onclick="popup.close()">Close</button>
+            <p>This is a popup</p>
+          </dialog>
+          <!-- <nav  class="navbar navbar-expand-sm bg-body-tertiary" style="display: none;"> -->
+          <nav  class="navbar navbar-expand-sm bg-body-tertiary" id="navigationBar">
             <div id="menu" class="container-fluid" >
               <a class="navbar-brand" href="#">🏠</a>
 
@@ -49,9 +55,9 @@
                       <li class="nav-item" ><a class="nav-link" href="#"> Contact</a></li>
                       
                     </ul>
-                    <form class="d-flex" role="search">
+                    <form onsubmit="search(); return false;" class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">🔍</button>
+                        <button  class="btn btn-outline-success bg-light" type="submit">🔍</button>
                       </form>
                 </div>
                
@@ -104,7 +110,7 @@
                                     <div class="card-body">
                                       <h5 class="card-title">Lorem Ipsum</h5>
                                       <p class="card-text"><b class="price">$300  </b><button type="button" class="btn btn-secondary" disabled>Add To Cart</button></p>
-                                     <button class="btn btn-warning">Click Here ></button>
+                                     <button class="btn btn-warning" id="heroButton" >Click Here ></button>
                                     </div>
                                   </div>
                                 </div>

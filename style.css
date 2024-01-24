@@ -1,3 +1,66 @@
-.hi{
-    color: aqua;
+
+#logo{
+    height: 50px;
 }
+
+.button{
+    border: 3px solid black;
+}
+.price{
+    color: red;
+}
+
+
+img{
+
+    height: 200px;
+    width: 200px;
+}
+
+#hero-image{
+    height: 300px;
+    width: 500px;
+}
+#menu
+{
+
+    background-color: red;
+    padding: 10px;
+   
+
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* css for footer */
+.footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer .h5 {
+    font-weight: bold;
+  }
+  
+  .footer ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer .input-group input {
+    border-color: #fff;
+    background-color: transparent;
+  }
+  
+  .footer .input-group button {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .footer p {
+    margin-bottom: 0;
+  }
+  

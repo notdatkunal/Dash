@@ -1,5 +1,5 @@
-#Ecommerce Dashboard
+#Landing page for Company
 
-this is a Dashboard page published as an assignment
 
-[visit site](https://notdatkunal.github.io/Dash/)
+
+[visit site](https://www.thetechvedas.com/)
